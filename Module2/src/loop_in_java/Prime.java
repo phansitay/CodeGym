@@ -1,8 +1,8 @@
-package ss2_vong_lap_trong_java;
+package loop_in_java;
 
 import java.util.Scanner;
 
-public class HienThiSoNguyenTo {
+public class Prime {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         System.out.printf("Enter the number of primes to print : ");

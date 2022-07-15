@@ -1,8 +1,8 @@
-package ss2_vong_lap_trong_java;
+package loop_in_java;
 
 import java.util.Scanner;
 
-public class HienThiCacLoaiHinh {
+public class Menu {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         System.out.println("Menu:");

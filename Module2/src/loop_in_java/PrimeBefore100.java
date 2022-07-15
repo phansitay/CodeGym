@@ -1,8 +1,8 @@
-package ss2_vong_lap_trong_java;
+package loop_in_java;
 
 import java.util.Scanner;
 
-public class CacSoNguyenToNhoHon100 {
+public class PrimeBefore100 {
     static int isPrime(int n) {
         if (n < 2) {
             return 0;
