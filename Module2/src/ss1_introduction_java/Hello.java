@@ -2,7 +2,7 @@ package ss1_introduction_java;
 
 import java.util.Scanner;
 
-public class Bai1 {
+public class Hello {
     public static void main(String[] args) {
         Scanner kb=new Scanner(System.in);
         System.out.println("Enter name : ");

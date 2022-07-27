@@ -2,7 +2,7 @@ package ss1_introduction_java;
 
 import java.util.Scanner;
 
-public class Bai2 {
+public class ReadNumbersIntoWords {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         System.out.printf("Mời bạn nhập một số : ");
