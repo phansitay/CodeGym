@@ -1,4 +1,4 @@
-package ss7_abstract_class_and_interface.comperator;
+package ss7_abstract_class_and_interface.Resizeable;
 
 public class RectangleTest {
     public static void main(String[] args) {
