@@ -27,3 +27,4 @@ foreign key(pID) references Product(pID));
 
 insert into Customer values(1,N'PHAN SỈ TÂY',21);
 select *FROM Customer;
+select *from Product;
