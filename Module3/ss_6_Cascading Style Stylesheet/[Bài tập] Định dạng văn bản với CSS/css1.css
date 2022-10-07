@@ -1,0 +1,19 @@
+h1{
+    font-weight: bold;
+}
+p{
+    font-size:medium;
+}
+.sp1{
+    font-weight: bold;
+}
+.sp2{
+    color: rgb(93, 131, 219);
+}
+.sp3{
+    color: blue;
+}
+.sp4{
+    text-transform: uppercase;
+    color: red;
+}

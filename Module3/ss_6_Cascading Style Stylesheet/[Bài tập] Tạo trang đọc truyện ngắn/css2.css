@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    font-size: 30px; 
+    color:#000;
+}
+a:hover{
+    color: rgb(13, 0, 255);
+}
+h1{
+    text-align: center;
+    background-color: chartreuse;
+    text-transform: uppercase;
+}
+html{
+    background-color: rgb(236, 168, 236);
+}

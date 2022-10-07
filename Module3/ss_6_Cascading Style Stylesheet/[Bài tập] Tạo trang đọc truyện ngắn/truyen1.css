@@ -1,0 +1,13 @@
+img{
+    width: 500px;
+    height: 300px;
+    margin-left: 500px; 
+}
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    color: red;
+}
+p{
+    font-size: 30px;
+}
