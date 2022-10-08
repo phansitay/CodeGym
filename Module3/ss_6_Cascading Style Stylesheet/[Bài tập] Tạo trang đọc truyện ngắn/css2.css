@@ -1,10 +1,21 @@
-a{
-    text-decoration: none;
-    font-size: 30px; 
-    color:#000;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-a:hover{
+html{
+    scroll-behavior: smooth;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px; 
+    color:rgb(24, 2, 2);
+    resize: 40px;
+    padding: 20px 20px;
+    display: inline block;
+}
+.menu a:hover{
     color: rgb(13, 0, 255);
+    background-color: beige;
 }
 h1{
     text-align: center;
@@ -13,4 +24,10 @@ h1{
 }
 html{
     background-color: rgb(236, 168, 236);
+}
+.menu{
+    background-color: aquamarine;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
 }
