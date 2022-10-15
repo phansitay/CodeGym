@@ -1,0 +1,415 @@
+html {
+    overflow: hidden;
+}
+.row {
+    display: flex; /* nổi lên trên cùng một hàng*/
+    flex-wrap: wrap;
+}
+/* css tìm kiếm */
+.fb{
+    width: 100%;
+    height: 100%;
+    margin-top: 6px;
+    margin-left: 7px;
+}
+.header{
+    height: 56px;
+    box-shadow: 0px 2px 2px rgb(207, 197, 197);
+    background-color: rgb(255, 251, 251);
+    margin-bottom: 2px;
+}
+form{
+    width: 100%;
+}
+input[type=text]{
+    width: 45%;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    background-image: url('./img/searchicon.png');
+    background-size:7%;
+    background-position: 10px 10px;
+    padding: 0 0 0 30px;
+    background-repeat: no-repeat;
+}
+/* css thanh công cụ */
+.bx{
+    font-size: 27px;
+}
+.bx-hc{
+    margin-left: 31px;
+    margin-top: 14px;
+}
+.app{
+    height: 48px;
+}
+.app:hover{
+    background-color: rgb(245, 246, 247);
+    margin-top: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bx-ti{
+    margin-top: 5.9px;
+    margin-left: 7px;
+}
+/* thanh coong cu sau */
+.apps{
+    height: 56px;
+    margin-top: 4px;
+}
+.bx-ti{
+    margin-top: 8px;
+}
+.ti-r{
+    height: 40px;
+    width: 40px;
+    margin-top: 4px;
+    border: none;
+    background-color:#e4e6eb;
+    border-radius: 54%;
+}
+
+.ti-r:hover{
+    background-color:#d3d5d8 ;
+    cursor: pointer;
+}
+
+.ht {
+    background-color:#444950;
+    display: none;
+    width: 75px;
+    padding: 0px 5px 0 5px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: -8.5px;
+    line-height: 25px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+  }
+
+.ti-r:hover .ht {
+    display: block;
+  }
+
+.ht1 {
+    background-color:#444950;
+    display: none;
+    width: 100%x;
+    padding: 0px 5px 0 5px;
+    height: 25px;
+    margin-top: 8px;
+    line-height: 25px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+  }
+.app:hover .ht1 {
+    display: block;
+  }
+
+  /* css nội dung */
+.cotrang{
+    height: 20px;
+}
+/* .trang{
+    background-color: #f5f7f8;
+} */
+/* trái */
+/* .side{
+    height: 100%;
+    background-color: #f5f7f8;
+} */
+.r-nd{
+    height: 30px;
+}
+.cl-nd{
+    width: 40px;
+    height: 52px;
+}
+.cl-nd{
+    height: 52px;
+    margin-left: 10px;
+}
+.bx-nd{
+    margin-left: 7px;
+    margin-top: 12px;
+    font-size: 32px;
+    
+}
+.anht{
+    height: 36px;
+    width: 36px;
+    margin-top: 8px;
+}
+h5{
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.r-cd{
+    height: 52px;
+}
+.side .r-cd:hover{
+    width: 100%;
+    background-color: #eaeced;
+    border-radius: 6px;
+    cursor: pointer; 
+}
+/* css thanh tin */
+.r-tdtt{
+    height: 60px;
+}
+.cltt{
+    height: 36px;
+    text-align: center;
+    color: #444950;
+}
+hr{
+    margin-top: 0px;
+}
+.cltt:hover{
+    height: 52px;
+    margin-top: 4px;
+    background-color: #afb4b6;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* css tin */
+.ccclll{
+    height: 205px;
+    /* background-color: rebeccapurple; */
+}
+.imgus{
+    width: 90%;
+    height: 100%;
+    padding: 1px 1px 1px 1px;
+    border-radius: 7px;
+}
+.imgus:hover{
+    transform: scale(1.5); 
+}
+.colu:hover .imgus{
+    transform: scale(1.05); 
+}
+.a{
+    background-color: #d3d5d8;
+}
+.colu{
+    height: 190px;
+    width: 90%;
+    position: relative;
+}
+.cccll{
+    height: 190px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.name{
+    width: 33%;
+    border-radius: 50%;
+    border: 2px solid blue;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.add{
+    margin-left: 3px;
+    margin-top: 3px;
+
+}
+.namecn{
+    width: 26%;
+    height: 17%;
+    background-color: blue;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 115px;
+    left: 40px;
+}
+/* .tt{
+    background-color: antiquewhite;
+} */
+.img-u{
+    width: 92%;
+    margin-left: 1px;
+}
+.nd{
+    position: absolute;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    top: 167px;
+    left: 15px;
+}
+.nd1{
+    position: absolute;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    top: 167px;
+    left: 15px;
+}
+.columns2{
+    background-color: #f5f7f8;
+    /* z-index: -1; */
+}
+.ccoo{
+    background-color: #fff;
+    height: 290px;
+    /* margin-top: 15px; */
+    border-radius: 8px;
+    box-shadow:2px 2px 5px 2px rgb(207, 197, 197);
+
+}
+
+/* css dang tin */
+.cctt{
+    height: 60px;
+}
+.ip:hover{
+    background-color: #e6e9eb;
+}
+input[type=text1]{
+    width: 90%;
+    height: 44px;
+    margin-top: 7px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 40px;
+    background-color: #f5f7f8;
+    padding: 0 0 0 20px;
+    background-repeat: no-repeat;
+}
+.userdb{
+    font-size: 35px;
+    margin-top: 13px;
+    margin-left: 4px;
+}
+/* css dang bai */
+
+.hatcc{
+    font-size: 33px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.ccc3{
+    height: 40px;
+}
+.ccc3:hover{
+    background-color: #f5f7f8;
+    border-radius: 8px;
+}
+.ndh6{
+    margin-top: 10px;
+}
+.tcdd{
+    height: 55px;
+}
+.cldb{
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow:2px 2px 5px 2px rgb(207, 197, 197);
+}
+/* trò chuỵen */
+.httv{
+    background-color: #f5f7f8;
+}
+.usa{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.coco{
+    margin-top: -15px;
+}
+.c{
+    margin-top: -15px;
+}
+.cc{
+    height: 70px;
+}
+.columns{
+    background-color: #f5f7f8;
+}
+.end{
+    margin-left: 93px;
+}
+.ss{
+    margin-left: 66px;
+}
+.xn,.xoa{
+    height: 36px;
+    width: 130px;
+    border-radius: 8px;
+}
+.xn{
+    background-color: rgb(22, 22, 255);
+}
+.xoa{
+    background-color: aliceblue;
+}
+.cotc{
+    height: 150px;
+}
+.cc:hover{
+    background-color: #dfe2e4;
+}
+span{
+    margin-top: -20px;
+    padding: 2px;
+}
+.ccccc{
+    margin-top: 5.5px;
+}
+.cdcd{
+    height: 45px;
+    margin-top: -10px;
+}
+.cdcd:hover{
+    background-color: #dfe2e4;
+}
+.ct{
+    margin-top: -3px;
+}
+.ct1{
+    margin-top: 16px;
+}
+.ii{
+    margin-top:5px;
+}
+.name1:hover{
+    background-color: #eeeeee;
+    border-radius: 8px;
+}
+
+.coo{
+    background-color: #fff;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgb(207, 197, 197);
+
+}
+.col-m-1 {width: 8.33333%;}
+.col-m-1-5 {width: 12.499995%;}
+.col-m-2 {width: 16.66667%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33333%;}
+.col-m-5 {width: 41.66667%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33333%;}
+.col-m-8 {width: 66.66667%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33333%;}
+.col-m-11 {width: 91.66667%;}
+.col-m-12 {width: 100%;}
