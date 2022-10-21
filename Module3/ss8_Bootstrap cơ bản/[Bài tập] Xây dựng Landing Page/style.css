@@ -1,0 +1,39 @@
+html{
+    overflow: scroll;
+}
+.col-header{
+    margin: 0px 0px 2px;
+    height: 52px;
+    background-color: #ffffff;
+}
+.navbar{
+    height: 52px;
+    margin: 0px 0px 2px;
+    background-color: #ffffff;
+}
+.img-logo{
+    width: 108px;
+    height: 23px;
+    margin:-5px 0px 5px 54px;
+}
+.logo{
+    padding: 16px 6px 16px 10px;
+    margin: 1px 0px 0px;
+    margin-left: 36px;
+}
+.nav-item{
+    font-size: 13px;
+}
+.navbar-left{
+    margin-left: -42px;
+}
+/* phải */
+.navbar-right{
+    margin-left: 32px;
+}
+/* row 2 */
+.col-r2{
+    height: 40px;
+    background-color: #f2f2f2;
+    padding: 10px 70px 10px 10px;
+}
