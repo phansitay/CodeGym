@@ -25,7 +25,7 @@
     </select>
     Second Operand
     <input type="text" name="secondOperand">
-
+    <button type="submit"> Send</button>
   </form>
   </body>
 </html>

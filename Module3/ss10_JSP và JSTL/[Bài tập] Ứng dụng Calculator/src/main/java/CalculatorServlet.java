@@ -10,30 +10,28 @@ public class CalculatorServlet extends HttpServlet {
         int first = Integer.parseInt(request.getParameter("firstOperand"));
         int second = Integer.parseInt(request.getParameter("secondOperand"));
         String operator = request.getParameter("operator");
-        int add = 0;
-        int sub=0;
-        int mul=0;
-        float div=0;
-        if (operator.equals("+")){
-            add =first*second;
-        }else {
-            if(operator.equals("-")){
-                sub =first-second;
-            }else {
-                if (operator.equals("*")){
-                    mul =first*second;
-                }else {
-                    div = first/second;
-                }
-            }
+        int s=0;
+        switch (operator) {
+            case "+":
+                s = first + second;
+                break;
+            case "-":
+                s = first - second;
+                break;
+            case "*":
+                s = first * second;
+                break;
+            case "/":
+                s = first / second;
+                break;
+            default:
+                break;
         }
-        request.setAttribute("cong",add);
-        request.setAttribute("tru",sub);
-        request.setAttribute("nhan",mul);
-        request.setAttribute("chia",div);
-
-        request.getRequestDispatcher()
-
+            request.setAttribute("s",s);
+            request.setAttribute("first",first);
+            request.setAttribute("second",second);
+            request.setAttribute("operator",operator);
+            request.getRequestDispatcher("kq.jsp").forward(request,response);
     }
 
     @Override
