@@ -27,16 +27,16 @@ public class ProductRepository implements IProductRepository {
 
     @Override
     public Product findByid(int id) {
-        return null;
+        return products.get(id);
     }
 
     @Override
     public void update(int id, Product product) {
-
+        products.add(id,product);
     }
 
     @Override
     public void remove(int id) {
-
+        products.remove(id);
     }
 }
